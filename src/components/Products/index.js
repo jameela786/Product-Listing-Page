@@ -5,28 +5,6 @@ import ProductCard from '../ProductCard'
 import ProductsHeader from '../ProductsHeader'
 import './index.css'
 
-const categoryOptions = [
-  {
-    name: 'Clothing',
-    categoryId: '1',
-  },
-  {
-    name: 'Electronics',
-    categoryId: '2',
-  },
-  {
-    name: 'Appliances',
-    categoryId: '3',
-  },
-  {
-    name: 'Grocery',
-    categoryId: '4',
-  },
-  {
-    name: 'Toys',
-    categoryId: '5',
-  },
-]
 
 const sortbyOptions = [
   {
@@ -51,28 +29,6 @@ const sortbyOptions = [
   },
 ]
 
-const ratingsList = [
-  {
-    ratingId: '4',
-    imageUrl:
-      'https://assets.ccbp.in/frontend/react-js/rating-four-stars-img.png',
-  },
-  {
-    ratingId: '3',
-    imageUrl:
-      'https://assets.ccbp.in/frontend/react-js/rating-three-stars-img.png',
-  },
-  {
-    ratingId: '2',
-    imageUrl:
-      'https://assets.ccbp.in/frontend/react-js/rating-two-stars-img.png',
-  },
-  {
-    ratingId: '1',
-    imageUrl:
-      'https://assets.ccbp.in/frontend/react-js/rating-one-star-img.png',
-  },
-]
 
 const apiStatusConstants = {
   initial: 'INITIAL',
@@ -86,9 +42,7 @@ class Products extends Component {
     apiStatus: apiStatusConstants.initial,
     productsList: [],
     activeOptionId: sortbyOptions[0].optionId,
-    activeCategoryId: '',
-    searchInput: '',
-    activeRatingId: '',
+ 
   }
 
   componentDidMount() {
@@ -202,22 +156,11 @@ class Products extends Component {
   }
 
   render() {
-    const {activeCategoryId, searchInput, activeRatingId} = this.state
     return (
       <>
         <div className="all-products-section">
           <ul className="All_profile_Filter_container">
             <FiltersGroup
-              searchInput={searchInput}
-              categoryOptions={categoryOptions}
-              ratingsList={ratingsList}
-              changeSearchInput={this.changeSearchInput}
-              enterSearchInput={this.enterSearchInput}
-              activeCategoryId={activeCategoryId}
-              activeRatingId={activeRatingId}
-              changeCategory={this.changeCategory}
-              changeRating={this.changeRating}
-              clearFilters={this.clearFilters}
             />
           </ul>
           <div className="all-products-container">{this.renderProducts()}</div>

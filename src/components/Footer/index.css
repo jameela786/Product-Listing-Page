@@ -1,0 +1,333 @@
+.footer_container{
+    width: 1440px;
+height: 750px;
+top: 3632px;
+gap: 0px;
+opacity: 0px;
+padding: 15px;
+background-color: #000000;
+color: #ffffff;
+}
+
+.card1_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+.card2_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cards_img{
+    /* width: 30px;
+    height: auto; */
+    width: 56px;
+height: 35px;
+gap: 0px;
+opacity: 0px;
+margin: 3px;
+
+}
+
+.footer_copyright{
+  display: flex;
+justify-content: center; 
+    align-items: center;
+    font-family: Simplon Norm;
+font-size: 14px;
+font-weight: 400;
+line-height: 16.8px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #FFFFFF;
+
+}
+
+.befirst_para{
+    font-family: Simplon Norm;
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+}
+
+
+.signup_input_container{
+    width: 584px;
+height: 48px;
+top: 197px;
+left: 128px;
+gap: 0px;
+opacity: 0px;
+
+}
+
+.signupText{
+    font-family: Simplon Norm;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    width: 384px;
+height: 47px;
+padding: 14px 24px 14px 24px;
+gap: 8px;
+opacity: 0px;
+
+}
+
+.subscribe_btn{
+    margin-left: 10px;
+    width: 184px;
+height:48px;
+left: 400px;
+gap: 0px;
+border-radius: 5px 0px 0px 0px;
+border: 1.14px 0px 0px 0px;
+opacity: 0.3px;
+border: 1.14px solid #FFFFFF;
+color: #ffffff;
+font-family: Simplon Norm;
+font-size: 18px;
+font-weight: 500;
+line-height: 21.6px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+background: #000000;
+
+}
+
+.contact_us{
+    font-family: Simplon Norm;
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+
+.numberemail_details{
+    font-family: Simplon Norm;
+font-size: 16px;
+font-weight: 400;
+line-height: 19.2px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+
+.currency{
+    font-family: Simplon Norm;
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+
+.country_img{
+    width: 30px;
+    height: auto;
+}
+
+.usd{
+    font-family: Simplon Norm;
+font-size: 16px;
+font-weight: 700;
+line-height: 19.2px;
+letter-spacing: 1px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+
+.country_container{
+    display: flex;
+    flex-direction: row;
+   
+
+    width: Hug (72px)px;
+height: Hug (24px)px;
+top: 237px;
+left: 888px;
+gap: 5px;
+opacity: 0px;
+
+}
+
+.transaction_details{
+    font-family: Simplon Norm;
+font-size: 12px;
+font-weight: 400;
+line-height: 14.4px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+
+.metta_muse{
+    font-family: Simplon Norm;
+font-size: 24.71px;
+font-weight: 700;
+line-height: 29.66px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+
+.quick_links{
+    font-family: Simplon Norm;
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+
+.follow_us{
+    font-family: Simplon Norm;
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+
+.follow_icons{
+    width: Hug (76px)px;
+height: Hug (32px)px;
+top: 421px;
+left: 888px;
+gap: 12px;
+opacity: 0px;
+
+}
+
+.follow_cards{
+    font-family: Simplon Norm;
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+.span_card{
+    font-family: Simplon Norm;
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+
+.cards_container{
+    width: Hug (376px)px;
+height: Hug (35px)px;
+top: 549px;
+left: 888px;
+gap: 8px;
+opacity: 0px;
+
+}
+
+.inside_text{
+    font-family: Simplon Norm;
+font-size: 18px;
+font-weight: 400;
+line-height: 21.6px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+
+@media screen and (max-width:576px){
+    .card1_container{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .footer_container{
+        width: 576px;
+        height: auto;
+    }
+    .signup_input_container{
+        width: 343px;
+        height: 48px;
+        top: 107px;
+        left: 16px;
+        gap: 0px;
+        opacity: 0px;
+    }
+    .signupText{
+        font-family: Simplon Norm;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19.2px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        width: 226px;
+        height:47px;
+        padding: 14px 24px 14px 24px;
+        gap: 8px;
+        opacity: 0px;
+    }   
+    .subscribe_btn{
+        margin-left: 10px;
+        border-radius: 5px 0px 0px 0px;
+        border: 1.14px 0px 0px 0px;
+        opacity: 0.3px;
+        border: 1.14px solid #FFFFFF;
+        color: #ffffff;
+        font-family: Simplon Norm;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 21.6px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        background: #000000;
+        width: 109px;
+        height: 48px;
+        left: 234px;
+        gap: 0px;
+        border-radius: 5px 0px 0px 0px;
+        border: 1.14px 0px 0px 0px;
+        opacity: 0.3px;
+    }
+    .card2_container{
+        display: flex;
+        flex-direction: column;
+    }
+}

@@ -35,67 +35,12 @@ class FiltersGroup extends Component {
     this.setState(prevState => ({isDropdownOpen: !prevState.isDropdownOpen}))
   }
 
-  renderRatingsFiltersList = () => {
-    const {ratingsList, changeRating, activeRatingId} = this.props
 
-    return ratingsList.map(rating => {
-      const ratingClassName =
-        activeRatingId === rating.ratingId ? `and-up active-rating` : `and-up`
 
-      const onClickRatingItem = () => changeRating(rating.ratingId)
 
-      return (
-        <li
-          className="rating-item"
-          key={rating.ratingId}
-          onClick={onClickRatingItem}
-        >
-          <img
-            src={rating.imageUrl}
-            alt={`rating ${rating.ratingId}`}
-            className="rating-img"
-          />
-          <p className={ratingClassName}>& up</p>
-        </li>
-      )
-    })
-  }
 
-  renderRatingsFilters = () => (
-    <div>
-      <h1 className="rating-heading">Rating</h1>
-      <ul className="ratings-list">{this.renderRatingsFiltersList()}</ul>
-    </div>
-  )
 
-  renderCategoriesList = () => {
-    const {categoryOptions, changeCategory, activeCategoryId} = this.props
 
-    return categoryOptions.map(category => {
-      const onClickCategoryItem = () => changeCategory(category.categoryId)
-      const isActive = category.categoryId === activeCategoryId
-      const categoryClassName = isActive
-        ? `category-name active-category-name`
-        : `category-name`
-
-      return (
-        <li
-          className="category-item"
-          key={category.categoryId}
-          onClick={onClickCategoryItem}
-        >
-          <p className={categoryClassName}>{category.name}</p>
-        </li>
-      )
-    })
-  }
-
-  renderProductCategories = () => (
-    <>
-      <h1 className="category-heading">Category</h1>
-      <ul className="categories-list">{this.renderCategoriesList()}</ul>
-    </>
-  )
 
   render() {
     const {isDropdownOpen, selectedOptions} = this.state
